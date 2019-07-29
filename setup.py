@@ -2,7 +2,7 @@
 import os
 from setuptools import setup, find_packages
 
-import edx_video_api
+VERSION = "0.0.1"
 
 
 def package_data(pkg, root_list):
@@ -50,7 +50,7 @@ def load_requirements(*requirements_paths):
 
 setup(
     name="edx_video_api",
-    version=edx_video_api.__version__,
+    version=VERSION,
     description="EdX Video API",
     license="BSD",
     url="https://github.com/mitodl/edx-video-api",
@@ -60,7 +60,7 @@ setup(
     install_requires=load_requirements("requirements/base.txt", "requirements/django.txt"),
     tests_require=load_requirements("requirements/test.txt"),
     packages=find_packages(),
-    package_data=package_data("edx_video_api", []),
+    package_data=package_data("src/edx_video_api", []),
     entry_points={
         "lms.djangoapp": [
             "edx_video_api = edx_video_api.apps:EdxVideoApiAppConfig"

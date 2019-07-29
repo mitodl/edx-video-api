@@ -13,7 +13,7 @@ from edx_video_api.views import (
     json_serialize_video,
 )
 
-from .utils import generate_video_api_result, now_in_utc, is_subdict
+from edx_video_api.utils import generate_video_api_result, now_in_utc, is_subdict
 
 COURSE_ID = "course-v1:MIT+DemoX+Demo_Course_2"
 FILENAME = "My Video"

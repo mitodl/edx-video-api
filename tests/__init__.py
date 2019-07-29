@@ -1,7 +1,8 @@
-"""Test suite init"""
+"""Tests"""
 import warnings
 from django.utils.deprecation import RemovedInDjango20Warning
-# Suppress DeprecationWarnings from certain external libraries
+
+
 warnings.filterwarnings(
     "ignore",
     category=DeprecationWarning,
