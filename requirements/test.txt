@@ -1,0 +1,8 @@
+mock
+edx_lint
+pytest
+pytest-env
+pytest-mock
+pytest-lazy-fixture
+pytest-pylint
+pdbpp
