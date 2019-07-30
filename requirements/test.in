@@ -1,0 +1,9 @@
+mock
+edx_lint
+pytest
+pytest-django
+pytest-env
+pytest-mock
+pytest-lazy-fixture
+pytest-pylint
+pdbpp

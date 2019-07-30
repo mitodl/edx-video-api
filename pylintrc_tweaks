@@ -1,0 +1,4 @@
+[TYPECHECK]
+generated-members=pytest.*
+# Pylint complains about not being able to import 'mock' even though it's in the test requirements
+ignored-modules=mock

@@ -1,0 +1,10 @@
+### Copied from edxval dependencies
+m3u8==0.3.10
+
+### Copied from edx-platform dependencies
+git+https://github.com/edx/django-rest-framework.git@1ceda7c086fddffd1c440cc86856441bbf0bd9cb#egg=djangorestframework==3.6.3
+edx-opaque-keys[django]==0.4.4
+# `fs` is "silently" required by edxval, i.e.: edxval uses `fs` and is installed on edx-platform, and edx-platform
+# declares the `fs` dependency instead of edxval
+fs==2.0.18
+edxval==1.1.25
