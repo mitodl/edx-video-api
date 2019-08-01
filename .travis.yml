@@ -1,0 +1,8 @@
+language: python
+matrix:
+  include:
+    - name: Python Unit Tests
+      install:
+      - pip install tox
+      python: 2.7
+      script: tox
